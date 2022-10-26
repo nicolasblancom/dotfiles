@@ -1,0 +1,32 @@
+[user]
+	name = nicolasblancom
+	email = nicolasblancom@gmail.com
+[push]
+	default = simple
+[branch]
+	autosetuprebase = never
+[rerere]
+	enabled = true
+[color]
+	ui = true
+[alias]
+	s = status --short --branch
+	f = fetch origin --append --prune
+	pl = pull --merge
+	plr = pull --rebase
+	aa = add --all
+	aac = !git add --all && git commit
+	aacw = !git add --all && git commit -m 'wip para squash'
+	aacam = !git add --all && git commit --amend --no-edit
+	dn = diff --name-only
+	lg = log --oneline --decorate --all --graph
+	ps = push --merge
+	psr = push --rebase
+	back = reset HEAD~1 --mixed
+	discard = !git add --all && git reset --hard > /dev/null && echo 'All changes discarded!'
+	recommit = reset HEAD~1 --soft
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[diff]
+	ignoreSubmodules = dirty

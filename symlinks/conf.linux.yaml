@@ -7,3 +7,5 @@
 
 - link:
     ~/.dotly: os/linux/.dotly
+    ~/.gitconfig: git/.gitconfig
+    ~/.gitignore_global: git/.gitignore_global

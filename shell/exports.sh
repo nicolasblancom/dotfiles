@@ -4,7 +4,8 @@
 export CODELY_THEME_MINIMAL=false
 export CODELY_THEME_MODE="dark"
 export CODELY_THEME_PROMPT_IN_NEW_LINE=false
-export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
+export CODELY_THEME_PWD_MODE="full" # full, short, home_relative
+export CODELY_THEME_STATUS_ICON_KO="▪" # The icon to show if the previous command failed. Useful if you're color blind
 
 # ------------------------------------------------------------------------------
 # Languages
